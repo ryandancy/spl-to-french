@@ -1,6 +1,6 @@
 #!usr/bin/env python
 # -*- coding: utf-8 -*-
-# Generates SPL that translates Lang de Programmer de Shakespeare (LPS) code from SPL.
+# Generates SPL that translates Langage de Programmation de Shakespeare (LPS) code from SPL.
 
 import random
 import math
@@ -218,7 +218,7 @@ adjectives_dict = {
     'horrible': 'horrible',
     'horrid': 'épouvantable',
     'infected': 'infecté',
-    'lying': 'qui mont',
+    'lying': 'qui ment',
     'miserable': 'misérable',
     'misused': 'abusé',
     'oozing': 'suintement',
@@ -425,7 +425,8 @@ translation = dict({
     'M': 'M',
     'D': 'D',
     'C': 'C',
-    'L': 'X',
+    'L': 'L',
+    'X': 'X',
     'V': 'V',
     'I': 'I'
 }, **characters_dict, **adjectives_dict, **posnouns_dict, **negnouns_dict)
